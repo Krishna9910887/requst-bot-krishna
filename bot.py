@@ -11,9 +11,9 @@ START_TEXT = "Hai {}\n\nI am Auto Request Accept Bot With Working For All Channe
 
 API_ID = int(env.get('API_ID', "14050586"))
 API_HASH = env.get('API_HASH', "42a60d9c657b106370c79bb0a8ac560c")
-BOT_TOKEN = env.get('BOT_TOKEN', "7980555254:AAHalwg_UW1LRxL3eWqAUdxfth29MAPj00s")
-DB_URL = env.get('DB_URL', "mongodb+srv://Krishna:krishna@cluster0.ecime.mongodb.net/")
-ADMINS = int(env.get('ADMINS', "7511038764, 5446367898"))
+BOT_TOKEN = env.get('BOT_TOKEN', "")
+DB_URL = env.get('DB_URL', ")
+ADMINS = int(env.get('ADMINS', "7660990923"))
 
 Dbclient = AsyncIOMotorClient(DB_URL)
 Cluster = Dbclient['Cluster0']
